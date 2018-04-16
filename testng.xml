@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WW Test Assignment Suite" parallel="tests" thread-count="8">
+<!-- listeners>
+<listener class-name="com.msg.qa.tests.MSGOnlineDigital.SalesCenter.MSGTestNGAnnotationTransfer" />
+</listeners-->
+
+    <test name="WW Assignment">
+        <classes>
+            <class name="com.test.weassignment.weightwatcherstestcase">
+                <methods>
+                
+                
+                    <include name="weightwatchersPageLoadAndTitleValidation"/>
+                    <include name="weightwatchersNavigateToMeetingPAge"/>
+                    <include name="SearchMeetingAndPrintFirstResult"/>
+                    <include name="ClickSearchResultAndValidte"/>
+                    <include name="PrinttodaysHourOfOpration"/>
+             
+                    
+                     <include name="ReadDictionary"/>
+                      <include name="nthsmallnumber"/>
+                     
+                    
+                    
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
