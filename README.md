@@ -30,6 +30,9 @@ all the element will be highlighted while test run
 5th & 6th is not UI test 
 chec the java src file to understand those code 
 
+![BDD Flow](https://github.com/mdrasul/weighwatchworks/blob/master/screen.jpg)
+
+
 Thanks 
 
 
